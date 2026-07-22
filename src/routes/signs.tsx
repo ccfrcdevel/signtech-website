@@ -9,11 +9,11 @@ import ban7 from "@/assets/signs-ban7.png";
 import ban8 from "@/assets/signs-ban8.png";
 import ban9 from "@/assets/signs-ban9.png";
 import van5 from "@/assets/signs-van5.png";
-import murray from "@/assets/signs-murray.jpg.asset.json";
-import svnMedical from "@/assets/signs-svn-medical.jpg.asset.json";
-import tcsa from "@/assets/signs-tcsa.jpg.asset.json";
-import coleman from "@/assets/signs-coleman.jpg.asset.json";
-import svnBricher from "@/assets/signs-svn-bricher.jpg.asset.json";
+import murray from "@/assets/signs-murray.jpg";
+import svnMedical from "@/assets/signs-svn-medical.jpg";
+import tcsa from "@/assets/signs-tcsa.jpg";
+import coleman from "@/assets/signs-coleman.jpg";
+import svnBricher from "@/assets/signs-svn-bricher.jpg";
 import { ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/signs")({
@@ -30,18 +30,18 @@ export const Route = createFileRoute("/signs")({
 });
 
 const gallery = [
-  { src: coleman.url, alt: "ColemanLand.com 'For Sale' three-sided commercial land sign" },
-  { src: svnBricher.url, alt: "SVN Landmark 'For Lease' retail property sign at Bricher Crossing" },
+  { src: coleman, alt: "ColemanLand.com 'For Sale' three-sided commercial land sign" },
+  { src: svnBricher, alt: "SVN Landmark 'For Lease' retail property sign at Bricher Crossing" },
   { src: ban4, alt: "Northwood product labels in die-cut vinyl" },
   { src: ban7, alt: "Summit Peak Builders site sign with crisp typography" },
-  { src: murray.url, alt: "Murray Commercial 'For Lease' post-mounted property sign" },
+  { src: murray, alt: "Murray Commercial 'For Lease' post-mounted property sign" },
   { src: ban3, alt: "M.I.C., Inc. general contractor sign in red and black" },
   { src: ban8, alt: "Clearflow Home Services door hangers in three colorways" },
-  { src: tcsa.url, alt: "TCSA Soccer facility sign at Breen Park South" },
+  { src: tcsa, alt: "TCSA Soccer facility sign at Breen Park South" },
   { src: ban1, alt: "B & R Storage outdoor sign with multi-color vinyl" },
   { src: van5, alt: "Illinois service-area map sign with red vinyl regions" },
   { src: ban6, alt: "Spencer Construction, Inc. property sign in black vinyl" },
-  { src: svnMedical.url, alt: "SVN Landmark 'For Lease' medical office property sign" },
+  { src: svnMedical, alt: "SVN Landmark 'For Lease' medical office property sign" },
   { src: ban2, alt: "Platforms by Wallace tradeshow sign with multi-color graphics" },
   { src: ban9, alt: "North Ridge Storage roadside sign with layered graphics" },
 ];

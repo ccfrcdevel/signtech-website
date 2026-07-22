@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import letteringHero from "@/assets/lettering-hero.png";
-import united from "@/assets/lettering-united.jpg.asset.json";
+import united from "@/assets/lettering-united.jpg";
 
 import truck1 from "@/assets/lettering-truck1.png";
 import truck3 from "@/assets/lettering-truck3.png";
@@ -10,7 +10,7 @@ import { ArrowRight, Car, AppWindow, Ship, Layers, Shapes, Palette } from "lucid
 import { PageHeader } from "./signs";
 
 const gallery = [
-  { src: united.url, alt: "United Door & Dock service truck lettering" },
+  { src: united, alt: "United Door & Dock service truck lettering" },
   { src: truck1, alt: "Kin-Ko Ace Hardware box truck lettering" },
   { src: truck4, alt: "Unique Products & Service Corp box truck lettering" },
   { src: truck3, alt: "L. Dover Service Auto Glass van lettering" },

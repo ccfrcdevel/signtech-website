@@ -1,0 +1,1 @@
+- [Lovable .asset.json placeholders](lovable-asset-json.md) — Lovable exports omit some images, leaving CDN-reference .asset.json files; fetch real files from the lovable.app preview host.
