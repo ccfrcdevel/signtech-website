@@ -12,6 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    // Build a Node server for Replit deployment (default preset targets Cloudflare)
+    preset: "node-server",
+  },
   vite: {
     server: {
       host: "0.0.0.0",
