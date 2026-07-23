@@ -1,1 +1,2 @@
 - [Lovable .asset.json placeholders](lovable-asset-json.md) — Lovable exports omit some images, leaving CDN-reference .asset.json files; fetch real files from the lovable.app preview host.
+- [GitHub sync via connector proxy](github-sync-via-connector.md) — when Source Control auth breaks, push via GitHub connector + Git Data API from a repl-side node script.
