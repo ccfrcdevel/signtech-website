@@ -6,6 +6,7 @@ import truck1 from "@/assets/lettering-truck1.png";
 import truck3 from "@/assets/lettering-truck3.png";
 import truck4 from "@/assets/lettering-truck4.png";
 import jennair2 from "@/assets/lettering-jennair2.png";
+import plainfieldTigers from "@/assets/lettering-plainfield-tigers.jpg";
 import { ArrowRight, Car, AppWindow, Ship, Layers, Shapes, Palette } from "lucide-react";
 import { PageHeader } from "./signs";
 
@@ -15,6 +16,7 @@ const gallery = [
   { src: truck4, alt: "Unique Products & Service Corp box truck lettering" },
   { src: truck3, alt: "L. Dover Service Auto Glass van lettering" },
   { src: jennair2, alt: "Jenn-Air Central Distributing entrance door lettering" },
+  { src: plainfieldTigers, alt: "Plainfield North Marching Tigers sponsor trailer lettering" },
 ];
 
 export const Route = createFileRoute("/lettering")({
